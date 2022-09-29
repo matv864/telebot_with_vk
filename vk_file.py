@@ -2,10 +2,6 @@ import vk_api
 from credentials import vk_token
 import random
 
-# with open("config_example.txt", "r") as F:
-#   token = F.readline()
-
-
 
 def vk_notify(msg, receive):
        req = {"user_id": receive, 
